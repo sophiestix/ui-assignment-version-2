@@ -1,0 +1,44 @@
+// ======================================
+//  Layout Container Styles
+// ======================================
+
+// Main Card
+.main-card {
+	/*position: relative;*/
+	margin: auto;
+	background-color: $white;
+	/*border: 1px solid $background-color;*/
+	border-radius: 5px;
+}
+
+// Card components layout
+.flex-container {
+	display: flex;
+}
+
+.column {
+	flex-grow: 1;
+	height: 350px;
+	border-right: 1px solid $background-color;
+}
+
+.tab-bar {
+	display: flex;
+}
+
+.tab {
+	flex-direction: row;
+	flex-grow: 1;
+	text-align: center;
+}
+
+.row {
+	border-bottom: 1px solid $background-color;
+	line-height: 2em;
+	padding: 15px 20px;
+
+}
+
+.box {
+	flex-grow: 1;
+}

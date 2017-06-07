@@ -393,10 +393,50 @@ template {
   box-sizing: border-box; }
 
 body {
-  background-color: lightgrey;
+  /*box-sizing: border-box;*/
+  background-color: #dadde0;
   font-size: .8rem;
-  line-height: 1.5;
+  /*line-height: 1.5;*/
   font-family: "Open Sans", sans-serif;
-  font-weight: 400; }
+  font-weight: 400;
+  color: #495b66;
+  text-align: left;
+  margin: auto;
+  padding: 30px; }
+
+.title {
+  width: 100%;
+  display: block; }
+
+.main-card {
+  /*position: relative;*/
+  margin: auto;
+  background-color: #fff;
+  /*border: 1px solid $background-color;*/
+  border-radius: 5px; }
+
+.flex-container {
+  display: flex; }
+
+.column {
+  flex-grow: 1;
+  height: 350px;
+  border-right: 1px solid #dadde0; }
+
+.tab-bar {
+  display: flex; }
+
+.tab {
+  flex-direction: row;
+  flex-grow: 1;
+  text-align: center; }
+
+.row {
+  border-bottom: 1px solid #dadde0;
+  line-height: 2em;
+  padding: 15px 20px; }
+
+.box {
+  flex-grow: 1; }
 
 /*# sourceMappingURL=style.css.map */
