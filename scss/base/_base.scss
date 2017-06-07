@@ -1,0 +1,15 @@
+// ======================================
+//  Base Styles
+// ======================================
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: lightgrey;
+	font-size: .8rem;
+	line-height: 1.5;
+	font-family: $font-stack;
+	font-weight: 400;
+}
