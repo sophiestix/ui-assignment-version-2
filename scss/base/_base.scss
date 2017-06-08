@@ -9,17 +9,37 @@
 body {
 	/*box-sizing: border-box;*/
 	background-color: $background-color;
-	font-size: .8rem;
+	font-size: $font-size-body;
 	/*line-height: 1.5;*/
 	font-family: $font-stack;
 	font-weight: 400;
-	color: #495b66;
+	/*color: #495b66;*/
+	color: $color-text-dark;
 	text-align: left;
 	margin: auto;
 	padding: 30px;
 }
 
+h1 {
+	font-family: $font-stack;
+	font-weight: 700;
+	font-size: $font-size-body;
+}
+
+h2 {
+	font-family: $font-stack;
+	font-size: $font-size-subtitle;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: $color-text-light;
+}
+
+li {
+	list-style: none;
+}
+
 .title {
-	width: 100%;
-	display: block;
+	border-bottom: 1px solid $background-color;
+	/*line-height: 1.5em;*/
+	padding: 10px 20px;
 }
