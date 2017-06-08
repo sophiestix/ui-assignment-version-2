@@ -9,6 +9,8 @@
 	background-color: $white;
 	/*border: 1px solid $background-color;*/
 	border-radius: 5px;
+	min-width: 745px;
+	max-width: 1250px;
 }
 
 // Card components layout
@@ -18,7 +20,7 @@
 
 .column {
 	flex-grow: 1;
-	height: 350px;
+	height: 400px;
 	border-right: 1px solid $background-color;
 }
 
