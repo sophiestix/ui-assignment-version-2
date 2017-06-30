@@ -1,0 +1,11 @@
+// ======================================
+//  Avatar Styles
+// ======================================
+
+.avatar {
+	border-radius: 100%;
+	border: 2px solid $white;
+	height: 32px;
+	margin-left: -10px;
+	z-index: 1;
+}
