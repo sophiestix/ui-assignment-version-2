@@ -1,0 +1,36 @@
+/*.statistics-row {
+	display: inline-flex;
+	flex-direction: row;
+}
+
+.percentage-bar {
+	background: $bar-color;
+}
+
+*/
+
+.progess-bar-tag {
+/*	flex-grow: 1;
+*/	min-width: 3em;
+	width: 33.33%;
+}
+
+.progress-bar-background {
+/*	flex-grow: 2;
+*//*	max-width: 10em;
+*/	width: 70.63%;
+	line-height: 10px;
+}
+
+.progress-bar {
+	/*width: 75%;*/
+	background-color: $color-primary;
+	color: $color-primary;
+}
+
+.progress-bar-percent {
+/*	flex-grow: 1;
+*/	min-width: 2em;
+	color: $color-text-light;
+	text-align: left;
+}

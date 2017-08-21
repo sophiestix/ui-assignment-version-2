@@ -46,12 +46,14 @@
 
 .box {
 	flex-grow: 1;
+	padding-right: 1em;
 }
 
 .stat-row {
 	display: flex;
+	justify-content: space-between;
 	flex-direction: row;
-	
+	align-items: center;
 }
 
 .audience-row {

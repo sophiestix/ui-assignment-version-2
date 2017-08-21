@@ -1,0 +1,7 @@
+<script>
+	function sendAJAX() {
+		$.get('sidebar.html', function(response) {
+			$.('#ajax').html(response);
+		});
+	}
+</script>

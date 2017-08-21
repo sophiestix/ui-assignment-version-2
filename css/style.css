@@ -506,11 +506,14 @@ li {
   /*	align-items: center;*/ }
 
 .box {
-  flex-grow: 1; }
+  flex-grow: 1;
+  padding-right: 1em; }
 
 .stat-row {
   display: flex;
-  flex-direction: row; }
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center; }
 
 .audience-row {
   display: flex;
@@ -533,5 +536,41 @@ li {
   display: inline-block;
   margin-left: 10px;
   /*flex-wrap: wrap;*/ }
+
+/*.statistics-row {
+	display: inline-flex;
+	flex-direction: row;
+}
+
+.percentage-bar {
+	background: $bar-color;
+}
+
+*/
+.progess-bar-tag {
+  /*	flex-grow: 1;
+  */
+  min-width: 3em;
+  width: 33.33%; }
+
+.progress-bar-background {
+  /*	flex-grow: 2;
+  */
+  /*	max-width: 10em;
+*/
+  width: 70.63%;
+  line-height: 10px; }
+
+.progress-bar {
+  /*width: 75%;*/
+  background-color: #009dff;
+  color: #009dff; }
+
+.progress-bar-percent {
+  /*	flex-grow: 1;
+  */
+  min-width: 2em;
+  color: #869ba8;
+  text-align: left; }
 
 /*# sourceMappingURL=style.css.map */

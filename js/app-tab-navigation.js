@@ -65,9 +65,9 @@ $(document).ready(function() {
     //if lables => get the labels part of json
     //start a for loop and push the relevant data to the empty array
         ajax_get('../data.json', function(data) {
-            var array = [];
+            let array = [];
             if ( el.id == 'btn-talking') {
-                for(var key in data["topics"]){
+                for(let key in data["topics"]){
                     if(!data["topics"].hasOwnProperty(key)){
                         continue;
                 }
@@ -83,20 +83,20 @@ $(document).ready(function() {
             }
             
             // console.log(array, array.slice(0,5));
-            var rest = array.splice(5);
+            let rest = array.splice(5);
 
-            var html = "<div>";
-            for (var i=0; i < array.length; i++) {
+            let html = "<div>";
+            for (let i=0; i < array.length; i++) {
                 html += '<div class="row audience-row">';
                     html += '<div class="audience-name">' + array[i]["name"] + '</div>';
                     html += '<div class="avatar-list">'
-                        for (var j=0; j < 6; j++) {
-                            var currentUser = array[i]["users"][j];
+                        for (let j=0; j < 6; j++) {
+                            let currentUser = array[i]["users"][j];
                             if (currentUser) {
                                 html += '<div><img class="avatar" src="' + currentUser["avatar"] + '"></img></div>';
                             }
                         }
-                        var users_length = array[i]["users"].length - 6;
+                        let users_length = array[i]["users"].length - 6;
                         html += '<span> + '+ users_length +' others</span>';
                     html += '</div>';
                 html += '</div>';
@@ -104,8 +104,8 @@ $(document).ready(function() {
             html += '</div>';
             document.getElementById("audience-list").innerHTML = html;
 
-            var html_rest = '<div>';
-                for (var i=0; i < rest.length; i++) {
+            let html_rest = '<div>';
+                for (let i=0; i < rest.length; i++) {
                     html_rest += '<div class="tags">' + rest[i]["name"] + ' (' +rest[i]["users"].length+ ')</div>';
                 }
             html_rest += '</div>';
