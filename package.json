@@ -1,0 +1,25 @@
+{
+  "name": "angular-test-assignment",
+  "version": "1.0.0",
+  "description": "Falcon.io Audience Insight widget in AngularJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophiestix/ui-assignment-version-2.git"
+  },
+  "author": "Zsofia Helmeczi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sophiestix/ui-assignment-version-2/issues"
+  },
+  "homepage": "https://github.com/sophiestix/ui-assignment-version-2#readme",
+  "dependencies": {
+    "angular": "^1.6.6"
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
